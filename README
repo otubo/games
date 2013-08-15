@@ -2,3 +2,12 @@ So, this is the place for fun. These are just simple
 examples and proof of concepts made in Unity 3D. You
 are mostly welcome to download and run. And remember
 nothing serious, just for fun :)
+
+Asteroids: This is a proof of concept of a 2D game
+based on that old ATARI game to destroy asteroids
+on the space.
+
+Dumdois: Just a prototype of a FPS.
+
+generic_mario: Just a prototype of a side-scrolling
+2D platform based game.
