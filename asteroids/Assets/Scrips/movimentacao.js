@@ -13,7 +13,8 @@ var ThrustBackRightNitro : GameObject;
 var ThrustFrontLeftFreio : GameObject;
 var ThrustFrontRightFreio : GameObject;
 
-
+var Tiro : GameObject;
+var TiroPosicaoRotacao : GameObject;
 
 
 function Update () {
@@ -76,6 +77,9 @@ function Update () {
 		Stop(ThrustBackRight);
 	}
 
+	if (Input.GetKeyDown(KeyCode.Space)){
+		Instantiate(Tiro, TiroPosicaoRotacao.transform.position, TiroPosicaoRotacao.transform.rotation);
+	}
 
 }
 

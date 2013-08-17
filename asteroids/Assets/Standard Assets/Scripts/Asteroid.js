@@ -18,6 +18,7 @@ function OnCollisionEnter(collision : Collision)
 	{
 		//Verifica se o GameObject que colidiu é um tiro ou a nave
 		if(collision.gameObject.CompareTag("Tiro") || collision.gameObject.CompareTag("Nave"))
+		// tambem pode ser collision.gameObject.tag (ou .name)
 		{
 				//Destroi o objeto que colidiu nele
 				DestroyObject(collision.gameObject);
