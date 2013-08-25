@@ -59,6 +59,11 @@
      <Compile Include="Assets\Standard Assets\Scripts\GameController.js" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
      <Compile Include="Assets\Standard Assets\Scripts\InicializaAsteroides.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Scrips\movimentacao.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Scrips\placar.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Scrips\play.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Scrips\position.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Scrips\tiro.js" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
   </ItemGroup>

@@ -1,17 +1,22 @@
 var nave : GameObject;
 var proximoLevel : int;
+
 function Update () {
+	
 	//Verificação da presença da nave no jogo
 	if(!findNave())
 	{
 		Invoke("exitLevel",1);
 	}
+	
 	//Verificação da presença dos asteroids no jogo
 	if (!findAsteroid())
 	{
 		Invoke("nextLevel",1);
 	}
+	
 }
+
 //Função que verifica a presença dos asteroids no jogo
 function findAsteroid()
 {
@@ -35,6 +40,6 @@ function exitLevel()
 {
 	if (!GameObject.FindGameObjectWithTag("Nave"))
 	{
-		Application.LoadLevel("Entrance");
+		Application.LoadLevel("start");
 	}
 }
