@@ -1,9 +1,8 @@
-
 var asteroidFilho : GameObject;
 var explosao : GameObject;
 var tamanhoDaExplosao : float;
 var velocidadeMaxima : float;
-var ponto_por_asteroid : int;
+var ponto_por_asteroide : int;
 
 function Update () {
 		//Verifica se a velocidade do asteroide está acima da velocidade máxima
@@ -20,9 +19,11 @@ function OnCollisionEnter(collision : Collision)
 		if(collision.gameObject.CompareTag("Tiro") || collision.gameObject.CompareTag("Nave"))
 		// tambem pode ser collision.gameObject.tag (ou .name)
 		{
-				if (collision.gameObject.tag == "Tiro") {
-					placar.SomarPontos(ponto_por_asteroid);
+				
+				if (collision.gameObject.CompareTag("Tiro")) {
+					placar.pontuacao += ponto_por_asteroide;
 				}
+
 				//Destroi o objeto que colidiu nele
 				DestroyObject(collision.gameObject);
 				//Destroi o asteroid
