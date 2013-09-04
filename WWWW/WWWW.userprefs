@@ -1,12 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\DontGoThroughWalls.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\HeroControl2.js">
     <Files>
-      <File FileName="..\asteroids\Assets\Standard Assets\Scripts\Asteroid.js" Line="19" Column="44" />
-      <File FileName="..\asteroids\Assets\Standard Assets\Scripts\GameController.js" Line="1" Column="1" />
-      <File FileName="..\asteroids\Assets\Standard Assets\Scripts\InicializaAsteroides.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Scripts\HeroControl.js" Line="29" Column="32" />
-      <File FileName="Assets\Standard Assets\Scripts\DontGoThroughWalls.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\HeroControl.js" Line="20" Column="24" />
+      <File FileName="Assets\Standard Assets\Scripts\HeroControl2.js" Line="14" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
