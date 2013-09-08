@@ -1,9 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\HeroControl2.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\CameraFollow.js">
     <Files>
-      <File FileName="Assets\Standard Assets\Scripts\HeroControl.js" Line="20" Column="24" />
-      <File FileName="Assets\Standard Assets\Scripts\HeroControl2.js" Line="14" Column="27" />
+      <File FileName="Assets\Standard Assets\Scripts\HeroControl2.js" Line="110" Column="2" />
+      <File FileName="Assets\Standard Assets\Scripts\CameraFollow.js" Line="14" Column="7" />
+      <File FileName="Assets\Standard Assets\Scripts\HeroControl.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\animation_play.js" Line="15" Column="6" />
+      <File FileName="Assets\Standard Assets\Scripts\little_up.js" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

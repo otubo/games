@@ -50,9 +50,13 @@
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
      <Compile Include="Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\CameraFollow.js" />
      <Compile Include="Assets\Standard Assets\Scripts\HeroControl.js" />
      <Compile Include="Assets\Standard Assets\Scripts\HeroControl2.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HeroControl3.js" />
      <Compile Include="Assets\Standard Assets\Scripts\adjustBackGroundSize.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\animation_play.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\little_up.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
